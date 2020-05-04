@@ -19,5 +19,7 @@ public class FileExample {
         System.out.println(workingDir);
         System.out.println("It is file " + file.isFile());
         System.out.println("It is directory " + file.isDirectory());
+        String fileSeparator = File.separator; // it return platform url separator like(windows '\', Unix '/')
+        System.out.println(fileSeparator);
     }
 }
